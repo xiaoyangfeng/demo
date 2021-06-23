@@ -61,7 +61,6 @@ export default class Ruler extends Component {
           <View style={[styles.horizontalline]} />
           <View style={[styles.ruler]}>{this.renderRuler()}</View>
         </ScrollView>
-
         <View style={[styles.centerline]} />
       </View>
     );
